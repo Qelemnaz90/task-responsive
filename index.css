@@ -1,0 +1,90 @@
+.cards{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.apple {
+    background-color:beige;
+    width: 200px;
+    height: 300px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.apple h1 {
+    background-color: darkgray;
+    border-style: solid;
+    height: 100px;
+    width: 150px;
+    margin-left: 25px;
+    margin-right: 25px;
+    padding-top: 30px;
+}
+
+.pear {
+    background-color:beige;
+    width: 200px;
+    height: 300px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.pear h1 {
+    background-color: darkgray;
+    border-style: solid;
+    height: 100px;
+    width: 150px;
+    margin-left: 25px;
+    margin-right: 25px;
+    padding-top: 30px;
+}
+
+.orange {
+    background-color:beige;
+    width: 200px;
+    height: 300px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.orange h1{
+    background-color: darkgray;
+    border-style: solid;
+    height: 100px;
+    width: 150px;
+    margin-left: 25px;
+    margin-right: 25px;
+    padding-top: 30px;
+}
+
+.tomato {
+    background-color:beige;
+    width: 200px;
+    height: 300px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.tomato h1 {
+    background-color: darkgray;
+    border-style: solid;
+    height: 100px;
+    width: 150px;
+    margin-left: 25px;
+    margin-right: 25px;
+    padding-top: 30px;
+}
+
+@media only screen and (max-width: 600px) {
+.cards{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+}
